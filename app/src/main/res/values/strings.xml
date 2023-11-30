@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">Golden Inkwell</string>
+
+    <string name="muslim_scientists">Ilmuwan Muslim</string>
+    <string name="description">Deskripsi</string>
+    <string name="about_us">Tentang Saya</string>
+
+    <string name="author_name">Suluh Sulistiawan</string>
+    <string name="author_email">suluh.webdevelopers@hotmail.com</string>
+    <string name="author_bio">Perjuangan milik kita!\nKemenangan milik Allah!\nFree Palestine! 🇵🇸</string>
+
+    <string-array name="data_name">
+        <item>Al Khawarizmi</item>
+        <item>Ibn Sina</item>
+        <item>Ibn Khaldun</item>
+        <item>Ibn Haitsam</item>
+        <item>Ibn Firnas</item>
+        <item>Al Khawarizmi</item>
+        <item>Ibn Sina</item>
+        <item>Ibn Khaldun</item>
+        <item>Ibn Haitsam</item>
+        <item>Ibn Firnas</item>
+    </string-array>
+
+    <string-array name="data_full_name">
+        <item>Muhammad bin Musa al-Khawarizmi</item>
+        <item>Abu Ali Al Hussain Ibnu Abdullah Ibnu Sina</item>
+        <item>Abu Zaid \'Abdurrahman bin Muhammad bin Khaldun al-Hadhrami</item>
+        <item>Abu Ali al-Hasan bin al-Hasan bin al-Haitsam atau Ibnu al-Haitsam</item>
+        <item>Abbas Abu al-Qasim bin Firnas ibn Wirdas al-Takurini</item>
+        <item>Muhammad bin Musa al-Khawarizmi</item>
+        <item>Abu Ali Al Hussain Ibnu Abdullah Ibnu Sina</item>
+        <item>Abu Zaid \'Abdurrahman bin Muhammad bin Khaldun al-Hadhrami</item>
+        <item>Abu Ali al-Hasan bin al-Hasan bin al-Haitsam atau Ibnu al-Haitsam</item>
+        <item>Abbas Abu al-Qasim bin Firnas ibn Wirdas al-Takurini</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Al Khawarizmi</item>
+        <item>Ibn Sina</item>
+        <item>Ibn Khaldun</item>
+        <item>Ibn Haitsam</item>
+        <item>Ibn Firnas</item>
+        <item>Al Khawarizmi</item>
+        <item>Ibn Sina</item>
+        <item>Ibn Khaldun</item>
+        <item>Ibn Haitsam</item>
+        <item>Ibn Firnas</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/al_khawarizmi</item>
+        <item>@drawable/ibn_sina</item>
+        <item>@drawable/ibn_khaldun</item>
+        <item>@drawable/ibn_haitsam</item>
+        <item>@drawable/ibn_firnas</item>
+        <item>@drawable/al_khawarizmi</item>
+        <item>@drawable/ibn_sina</item>
+        <item>@drawable/ibn_khaldun</item>
+        <item>@drawable/ibn_haitsam</item>
+        <item>@drawable/ibn_firnas</item>
+    </integer-array>
 </resources>

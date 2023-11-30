@@ -1,5 +1,6 @@
 package id.sooluh.muslim
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,6 +11,9 @@ import androidx.recyclerview.widget.RecyclerView
 
 class ListScientistAdapter(private val listScientist: ArrayList<Scientist>) :
     RecyclerView.Adapter<ListScientistAdapter.ListViewHolder>() {
+    private var lastClick: Long = 0
+    private val clickDelay = 1000
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View = LayoutInflater
             .from(parent.context)
@@ -27,11 +31,14 @@ class ListScientistAdapter(private val listScientist: ArrayList<Scientist>) :
         holder.tvDescription.text = description
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(
-                holder.itemView.context,
-                "Kamu memilih " + listScientist[holder.adapterPosition].fullName,
-                Toast.LENGTH_SHORT
-            ).show()
+            val clickTime = System.currentTimeMillis()
+            if (clickTime - lastClick > clickDelay) {
+                lastClick = clickTime
+
+                val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+                intentDetail.putExtra("key_scientist", listScientist[position])
+                holder.itemView.context.startActivity(intentDetail)
+            }
         }
     }
 

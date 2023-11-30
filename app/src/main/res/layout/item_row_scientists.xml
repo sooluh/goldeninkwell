@@ -8,33 +8,34 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginStart="16dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="16dp"
-    android:layout_marginBottom="8dp"
-    card_view:cardCornerRadius="0dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="2dp"
+    card_view:cardUseCompatPadding="true"
     style="?attr/materialCardViewElevatedStyle">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/img_item_photo"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:importantForAccessibility="no"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
             tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tv_item_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_toEndOf="@id/img_item_photo"
@@ -48,10 +49,11 @@
         <TextView
             android:id="@+id/tv_item_description"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
             android:ellipsize="end"
-            android:maxLines="5"
+            android:maxLines="2"
             app:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
             app:layout_constraintEnd_toEndOf="@+id/tv_item_name"
             app:layout_constraintStart_toStartOf="@+id/tv_item_name"

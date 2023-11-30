@@ -1,7 +1,8 @@
 package id.sooluh.muslim
 
 import android.os.Bundle
-import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.appbar.MaterialToolbar
 
@@ -11,11 +12,15 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
 
         val topAppBar: MaterialToolbar = findViewById(R.id.top_app_bar)
-        topAppBar.setNavigationOnClickListener { finish() }
-    }
+        val imgAvatar = findViewById<ImageView>(R.id.img_author_avatar)
+        val tvName = findViewById<TextView>(R.id.tv_author_name)
+        val tvEmail = findViewById<TextView>(R.id.tv_author_email)
+        val tvBio = findViewById<TextView>(R.id.tv_author_bio)
 
-    @Suppress("DEPRECATION")
-    fun onBackPressed(view: View) {
-        onBackPressed()
+        topAppBar.setNavigationOnClickListener { finish() }
+        imgAvatar.setImageResource(R.drawable.author_avatar)
+        tvName.text = getString(R.string.author_name)
+        tvEmail.text = getString(R.string.author_email)
+        tvBio.text = getString(R.string.author_bio)
     }
 }

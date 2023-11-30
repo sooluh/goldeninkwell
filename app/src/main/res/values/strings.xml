@@ -3,7 +3,11 @@
 
     <string name="muslim_scientists">Ilmuwan Muslim</string>
     <string name="description">Deskripsi</string>
-    <string name="about_us">Tentang Saya</string>
+    <string name="about_us">Tentang Author</string>
+    <string name="avatar">Avatar</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="email_address">Alamat Surel</string>
+    <string name="bio">Bio</string>
 
     <string name="author_name">Suluh Sulistiawan</string>
     <string name="author_email">suluh.webdevelopers@hotmail.com</string>

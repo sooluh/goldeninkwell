@@ -2,5 +2,7 @@
     <style name="Base.Theme.GoldenInkwell" parent="Theme.Material3.DayNight.NoActionBar">
     </style>
 
-    <style name="Theme.GoldenInkwell" parent="Base.Theme.GoldenInkwell" />
+    <style name="Theme.GoldenInkwell" parent="Base.Theme.GoldenInkwell">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
 </resources>

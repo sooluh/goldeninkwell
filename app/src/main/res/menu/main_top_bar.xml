@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/goto_about_page"
+        android:title="@string/about_us"
+        android:contentDescription="@string/about_us"
+        android:enabled="true"
+        app:actionLayout="@layout/profile_menu_layout"
+        app:showAsAction="always" />
+
+</menu>

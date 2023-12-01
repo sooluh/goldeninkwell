@@ -1,5 +1,6 @@
 package id.sooluh.muslim
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
@@ -10,6 +11,7 @@ import androidx.core.content.ContextCompat
 import com.google.android.material.appbar.MaterialToolbar
 
 class DetailActivity : AppCompatActivity() {
+    @SuppressLint("QueryPermissionsNeeded")
     @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,7 +37,6 @@ class DetailActivity : AppCompatActivity() {
                     true
                 }
                 R.id.share -> {
-                    val dataScientist = intent.getParcelableExtra<Scientist>("key_scientist")!!
                     val shareText = """
                         Nama: ${dataScientist.name}
                         Nama Lengkap: ${dataScientist.fullName}

@@ -73,6 +73,59 @@
                 android:gravity="center"
                 android:contentDescription="@string/bio" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="32dp">
+
+                <Button
+                    android:id="@+id/www_btn"
+                    style="@style/Widget.App.Button.FilledButton.IconOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/website"
+                    app:icon="@drawable/ic_www"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/github_btn"
+                    style="@style/Widget.App.Button.FilledButton.IconOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/github"
+                    app:icon="@drawable/ic_github"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/gitlab_btn"
+                    style="@style/Widget.App.Button.FilledButton.IconOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/gitlab"
+                    app:icon="@drawable/ic_gitlab"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/instagram_btn"
+                    style="@style/Widget.App.Button.FilledButton.IconOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/instagram"
+                    app:icon="@drawable/ic_instagram"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/x_btn"
+                    style="@style/Widget.App.Button.FilledButton.IconOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/twitter"
+                    app:icon="@drawable/ic_x"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

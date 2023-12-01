@@ -16,6 +16,12 @@
     <string name="author_email">suluh.webdevelopers@hotmail.com</string>
     <string name="author_bio">Perjuangan milik kita, kemenangan milik Allah!\nFree Palestine! 🇵🇸</string>
 
+    <string name="github">GitHub</string>
+    <string name="website">Website</string>
+    <string name="gitlab">GitLab</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">X (formerly Twitter)</string>
+
     <string-array name="data_name">
         <item>Al-Khawarizmi</item>
         <item>Ibnu Sina</item>

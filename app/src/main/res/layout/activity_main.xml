@@ -13,9 +13,11 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/top_app_bar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="@string/app_name" />
+            app:title="@string/app_name"
+            app:menu="@menu/main_top_bar" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -28,14 +30,5 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/goto_about_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:contentDescription="@string/about_us"
-        app:srcCompat="@drawable/ic_person" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

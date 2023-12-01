@@ -33,7 +33,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:minHeight="?attr/actionBarSize"
                 app:title="@string/scientist_name"
-                app:menu="@menu/top_app_bar"
+                app:menu="@menu/detail_top_bar"
                 app:navigationIcon="@drawable/ic_close"
                 app:navigationIconTint="@android:color/white"
                 android:background="@android:color/transparent"
@@ -69,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/description"
                 android:textSize="16sp"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

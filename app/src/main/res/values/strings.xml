@@ -17,27 +17,27 @@
     <string name="author_bio">Perjuangan milik kita, kemenangan milik Allah!\nFree Palestine! 🇵🇸</string>
 
     <string-array name="data_name">
-        <item>Al Khawarizmi</item>
-        <item>Ibn Sina</item>
+        <item>Al-Khawarizmi</item>
+        <item>Ibnu Sina</item>
         <item>Ibn Khaldun</item>
         <item>Ibnu al-Haitsam</item>
-        <item>Ibnu Firnas</item>
+        <item>Ibn Firnas</item>
         <item>Al-Biruni</item>
         <item>Al-Farabi</item>
         <item>Al-Farghani</item>
-        <item>Ibn Hayyan</item>
+        <item>Jabir bin Hayyan</item>
         <item>Al-Kindi</item>
         <item>Ar-Razi</item>
         <item>Abul Wafa</item>
         <item>Omar Khayyam</item>
         <item>Abu Kamil</item>
-        <item>Ibnu Sahal</item>
-        <item>Ibnu Bassal</item>
-        <item>Ibnu Al-Nafis</item>
+        <item>Ibn Sahl</item>
+        <item>Ibn Bassal</item>
+        <item>Ibn al-Nafis</item>
         <item>Al-Zahrawi</item>
         <item>Al-Idrisi</item>
         <item>Banu Musa Bersaudara</item>
-        <item>Ibnu Rusyd</item>
+        <item>Ibn Rushd</item>
         <item>Thabit ibn Qurra</item>
         <item>Fatima al-Fihri</item>
     </string-array>
